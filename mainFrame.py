@@ -88,7 +88,7 @@ while True:
             pygame.quit()
             exit()
         if event.type == MOUSEBUTTONDOWN:
-            if event.key == [BUTTON_LEFT]:
+            if event.key == BUTTON_LEFT:
                 print('shooting!')
                 sound = pygame.mixer.music.play()
             #if event.type == MOUSEMOTION :
