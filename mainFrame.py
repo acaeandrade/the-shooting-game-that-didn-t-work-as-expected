@@ -91,8 +91,8 @@ while True:
             if event.key == [BUTTON_LEFT]:
                 print('shooting!')
                 sound = pygame.mixer.music.play()
-            if event.type == MOUSEMOTION :
-                print(event)
+            #if event.type == MOUSEMOTION :
+             #   print(event)
 
     all_frames.draw(win)
     all_frames.update()
